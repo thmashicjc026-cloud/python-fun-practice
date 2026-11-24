@@ -1,0 +1,2 @@
+# Optional: tests also run with the standard library alone (python -m unittest)
+pytest>=7
