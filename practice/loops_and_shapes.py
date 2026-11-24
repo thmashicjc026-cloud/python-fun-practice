@@ -30,6 +30,10 @@ def count_items(items: list) -> int:
         count_items(['a', 'b', 'c']) -> 3
     """
     pass
+    num = 0
+    for i in items:
+        num += 1
+    return num   
 
 
 def sum_numbers(numbers: List[float]) -> float:
