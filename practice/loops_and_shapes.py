@@ -42,7 +42,11 @@ def sum_numbers(numbers: List[float]) -> float:
     Example:
         sum_numbers([1, 2, 3, 4, 5]) -> 15
     """
+    sumNums = 0
+    for i in numbers:
+        sumNums += i
     pass
+    return sumNums
 
 
 def find_largest(numbers: List[float]) -> float:
