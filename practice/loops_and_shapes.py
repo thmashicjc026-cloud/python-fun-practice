@@ -59,12 +59,16 @@ def find_largest(numbers: List[float]) -> float:
 
 
 def count_even_numbers(numbers: List[int]) -> int:
-    """Return how many numbers in the list are even (0 counts as even).
-
-    Example:
-        count_even_numbers([1, 2, 3, 4, 5, 6]) -> 3
-    """
-    pass
+    # counter = 0
+    ##newnums = numbers
+    # for i in numbers:   
+    #     if i % 2 == 0:
+    #         counter += 1
+    even_nums = len([even for even in numbers if even % 2 == 0])
+    
+    return even_nums
+            
+        
 
 
 def sum_digits(number: int) -> int:
