@@ -60,7 +60,6 @@ def find_largest(numbers: List[float]) -> float:
 
 def count_even_numbers(numbers: List[int]) -> int:
     # counter = 0
-    ##newnums = numbers
     # for i in numbers:   
     #     if i % 2 == 0:
     #         counter += 1
@@ -77,6 +76,8 @@ def sum_digits(number: int) -> int:
     Example:
         sum_digits(123) -> 6
     """
+
+    ##
     pass
 
 
